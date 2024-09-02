@@ -2,20 +2,33 @@
  * HTML TAGS
  */
 
-* {
+
+ 
+ * {
   text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Open Sans", "Merriweather", serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 a,
 a:link,
 a:visited {
   color: #be9466;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1,
@@ -59,6 +72,7 @@ small {
 
 img {
   max-width: 100%;
+  display: block;
   margin: 0 auto;
 }
 
@@ -70,8 +84,21 @@ ol li {
  * CUSTOM CLASSES
  */
 
+ .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 700px;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 .divider {
@@ -97,7 +124,8 @@ ol li {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  margin: 25px 0;
+  margin: 25px auto;
+  object-fit: cover;
 }
 
 .hero-links a {
@@ -138,9 +166,7 @@ ol li {
   }
 
   .hero-image {
-    border-radius: 50%;
     width: 170px;
     height: 170px;
-    margin: 25px 0;
   }
 }

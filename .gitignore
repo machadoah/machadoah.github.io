@@ -1,1 +1,4 @@
 .DS_Store
+.nuxt
+.venv
+node_modules
