@@ -1,0 +1,18 @@
+site_name: machadoah
+site_url: https://machadoah.tech/
+repo_url: https://github.com/machadoah/machadoah.github.io/
+repo_name: Machadoah
+theme:
+  name: material
+  palette:
+    primary: 'white'
+    accent: 'gray'
+    background: 'black'
+markdown_extensions:
+  - codehilite
+  - admonition
+nav:
+  - Home: index.md
+  - Educação: educacao.md
+  - Experiências: experiencias.md
+  - Habilidades: habilidades.md
