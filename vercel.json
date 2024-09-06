@@ -2,9 +2,9 @@
   "builds": [
     {
       "src": "mkdocs.yml",
-      "use": "@vercel/python",
+      "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "poetry run mkdocs build",
+        "buildCommand": "mkdocs build",
         "outputDirectory": "site"
       }
     }

@@ -1,5 +1,6 @@
 site_name: machadoah
 site_url: https://machadoah.tech/
+site_dir: site
 repo_url: https://github.com/machadoah/machadoah.github.io/
 repo_name: Machadoah
 theme:
