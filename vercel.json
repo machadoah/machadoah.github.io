@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "mkdocs.yml",
+      "use": "@vercel/python",
+      "config": {
+        "buildCommand": "poetry run mkdocs build",
+        "outputDirectory": "site"
+      }
+    }
+  ]
+}
