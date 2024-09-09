@@ -4,10 +4,16 @@ repo_url: https://github.com/machadoah/machadoah.github.io/
 repo_name: Machadoah
 theme:
   name: material
+  locale: pt_BR
   palette:
-    primary: 'white'
-    accent: 'gray'
-    background: 'black'
+    - scheme: default
+      primary: 'white'
+      accent: 'gray'
+      background: 'black'
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Toggle dark mode
 markdown_extensions:
   - codehilite
   - admonition
