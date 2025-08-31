@@ -59,7 +59,7 @@ menu:
   - ["About", "about.html"]
   - ["Pages", "pages.html"]
   - ["Tags", "tags.html"]
-  # - ["Strems", "streams.html"]
+  # - ["Streams", "streams.html"]
   # - ["Linkedin", "https://linkedin.com/in/machadoah"]
   # - ["Github", "https://github.com/machadoah"]
   - ["Series", "series.html"]
