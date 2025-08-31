@@ -1,0 +1,27 @@
+version = 1
+revision = 2
+requires-python = ">=3.13"
+
+[[package]]
+name = "machadoah-github-io"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "marmite" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "marmite", specifier = ">=0.2.6" }]
+
+[[package]]
+name = "marmite"
+version = "0.2.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/92/33efb0d3e0bea507d5d0882cb9de133731a3b157ce178d37c90784906f23/marmite-0.2.6.tar.gz", hash = "sha256:1cbb31f12fc309277153d91bcb27c63d2a690cb9fe7295df81309576caa1d3f6", size = 51750062, upload-time = "2025-08-06T14:21:01.064Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/53/ab/69d2ebac0e7ac8740f0106dcf4efae71d05c2f87929d5d4ca269c1af9049/marmite-0.2.6-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:efa977abd4494929d5024b3f0a0bf619748d3f0515665ea6f52e65343af29257", size = 4572358, upload-time = "2025-08-06T14:20:56.447Z" },
+    { url = "https://files.pythonhosted.org/packages/ab/4c/921d33184cdf3228faef8df14825a164295da85fe14d4518a8572f098564/marmite-0.2.6-py3-none-macosx_11_0_arm64.whl", hash = "sha256:2ade59d0af7f951479e2ca55659ec2ca0acb388addb9097db2a07bd3bd3836b9", size = 4219138, upload-time = "2025-08-06T14:20:52.693Z" },
+    { url = "https://files.pythonhosted.org/packages/17/2a/9a164b967f61e77eac6f926446031aab0a9aec9c0af4834804afe199617a/marmite-0.2.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1dcdaea11089b88f02eddd8c86ba429b07e1c70d32f02d0776bc27d4ce961e33", size = 4545820, upload-time = "2025-08-06T14:20:54.718Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/11/3d3a59fd482ee528345a93fda26bd3d3a5828588844322412e0905ef245c/marmite-0.2.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:33442447b34dee731dff4b2c95e9386fa2356cf1896af6a0e184908fc0f31b26", size = 4874750, upload-time = "2025-08-06T14:20:58.915Z" },
+    { url = "https://files.pythonhosted.org/packages/95/17/26558d41899aee56bb1ddc144391f372d17548be1318c44998396421bc1a/marmite-0.2.6-py3-none-win_amd64.whl", hash = "sha256:df363e246b38d74f3491c2002bc00153b5bfa0bc7eb0042d5e1ead34e95158f0", size = 4448663, upload-time = "2025-08-06T14:20:57.795Z" },
+]
