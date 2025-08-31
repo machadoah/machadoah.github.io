@@ -3,7 +3,7 @@ date: 2025-08-31
 tags: estatistica, matematica
 author: antonio
 series: estatistica-basica
-# stream: draft
+stream: draft
 title: Estatística Descritiva
 slug: introducao-estatistica
 description: Introdução à Estatística Descritiva
