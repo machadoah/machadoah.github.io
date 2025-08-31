@@ -1,0 +1,13 @@
+name: machadoah - blog pessoal
+tagline: Antonio Henrique Machado
+url: https://machadoah.github.io
+menu:
+  - ["About", "about.html"]
+  - ["Pages", "pages.html"]
+  - ["Tags", "tags.html"]
+  - ["Follow me", "https://linkedin.com/in/machadoah"]
+  - ["Github", "https://github.com/machadoah"]
+
+
+# More options available to customize the website
+# read on https://rochacbruno.github.io/marmite/tag/customization.html

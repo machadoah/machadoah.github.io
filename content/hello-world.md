@@ -1,14 +1,11 @@
 ---
-date: 2024-10-25
-tags: hello,world
+date: 2025-08-31
+tags: marmite
+author: Antonio Henrique Machado
 ---
-# Hello World
 
-Hello, this is my first post on my new blog generated
-by Marmite[1], a very simple to use blog generator.
+# 👋🏼 Olá, mundo
 
-I can write full CommonMark and GFM Markdown.
-
-Emojis :smile:
+Esse é o meu primeiro "post", no meu blog, que é gerado com o Marmite<sup>[1]</sup>!
 
 [1]: https://github.com/rochacbruno/marmite
