@@ -19,7 +19,7 @@ footer: |
 pagination: 10
 
 # AUTHORS
-default_author: "antonio"             # Default author for all content
+default_author: "antonio" # Default author for all content
 
 authors:
   antonio:
@@ -35,12 +35,15 @@ authors:
 streams:
   tutorial:
     display_name: "Tutorials"
-  
+
   guide:
     display_name: "User Guides"
 
   my:
     display_name: "Person"
+
+  draft:
+    display_name: "Rascunho"
 
 # SERIES
 series:
@@ -59,7 +62,7 @@ menu:
   # - ["Strems", "streams.html"]
   # - ["Linkedin", "https://linkedin.com/in/machadoah"]
   # - ["Github", "https://github.com/machadoah"]
-  - ["Tópicos", "series.html"]
+  - ["Series", "series.html"]
 
 # FEATURES
 enable_search: true
@@ -71,4 +74,3 @@ json_feed: true
 # SOURCE
 publish_md: true
 source_repository: "https://github.com/machadoah/machadoah.github.io/tree/main/content"
-
