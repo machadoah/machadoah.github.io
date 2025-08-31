@@ -1,6 +1,45 @@
-name: machadoah - blog pessoal
-tagline: Antonio Henrique Machado
+# BASIC INFORMATION
+name: Antonio Henrique Machado
+tagline: 🗒️ Blog pessoal
 url: https://machadoah.github.io
+language: "pt"
+
+# VISUAL ASSETS
+# card_image: "media/og-image.jpg"       # Default social media card image
+# banner_image: "media/banner.jpg"      # Default banner image
+# logo_image: "media/logo.png"          # Site logo image
+
+# FOOTER
+footer: |
+  <div>
+    Powered by <a href="https://github.com/machadoah">@machadoah</a>
+  </div>
+
+# PAGINATION
+pagination: 10
+
+# AUTHORS
+default_author: "antonio"             # Default author for all content
+
+authors:
+  antonio:
+    name: "Antonio Henrique Machado"
+    avatar: "https://github.com/machadoah.png"
+    bio: "Software Engineer"
+    links:
+      - ["Website", "https://machadoah.github.io"]
+      - ["X", "https://x.com/machadoah"]
+      - ["GitHub", "https://github.com/machadoah"]
+
+# STREAMS CONFIGURATION
+streams:
+  tutorial:
+    display_name: "Tutorials"
+  
+  guide:
+    display_name: "User Guides"
+
+# NAVIGATION
 menu:
   - ["About", "about.html"]
   - ["Pages", "pages.html"]
@@ -8,6 +47,13 @@ menu:
   - ["Follow me", "https://linkedin.com/in/machadoah"]
   - ["Github", "https://github.com/machadoah"]
 
+# FEATURES
+enable_search: true
+enable_related_content: true
+show_next_prev_links: true
+toc: true
+json_feed: true
 
-# More options available to customize the website
-# read on https://rochacbruno.github.io/marmite/tag/customization.html
+# SOURCE
+publish_md: true
+source_repository: "https://github.com/machadoah/machadoah.github.io/tree/main/content"
