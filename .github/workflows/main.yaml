@@ -25,11 +25,16 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v4
 
-      - name: Install marmite 🫙
-        run: cargo install marmite
+      - name: Install uv
+        run: |
+          pip install uv
+
+      - name: Install dependencies
+        run: |
+          uv sync --no-dev
 
       - name: Build site 🏗️
-        run: marmite . site --debug
+        run: uv run marmite . site --debug
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
