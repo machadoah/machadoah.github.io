@@ -1,6 +1,6 @@
 # BASIC INFORMATION
 name: Antonio Henrique Machado
-tagline: 🗒️ Blog pessoal
+tagline: 🪓 Blog pessoal
 url: https://machadoah.github.io
 language: "pt"
 
@@ -19,7 +19,7 @@ footer: |
 pagination: 10
 
 # AUTHORS
-default_author: "antonio"             # Default author for all content
+default_author: "antonio" # Default author for all content
 
 authors:
   antonio:
@@ -35,17 +35,34 @@ authors:
 streams:
   tutorial:
     display_name: "Tutorials"
-  
+
   guide:
     display_name: "User Guides"
+
+  my:
+    display_name: "Person"
+
+  draft:
+    display_name: "Rascunho"
+
+# SERIES
+series:
+  python-tutorial:
+    display_name: "Python Tutorial"
+    description: "A comprehensive Python programming tutorial series"
+  web-dev-basics:
+    display_name: "Web Development Basics"
+    description: "Essential skills for modern web development"
 
 # NAVIGATION
 menu:
   - ["About", "about.html"]
   - ["Pages", "pages.html"]
   - ["Tags", "tags.html"]
-  - ["Follow me", "https://linkedin.com/in/machadoah"]
-  - ["Github", "https://github.com/machadoah"]
+  # - ["Streams", "streams.html"]
+  # - ["Linkedin", "https://linkedin.com/in/machadoah"]
+  # - ["Github", "https://github.com/machadoah"]
+  - ["Series", "series.html"]
 
 # FEATURES
 enable_search: true
