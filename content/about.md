@@ -15,10 +15,7 @@ Sou formado em Análise e Desenvolvimento de Sistemas, cursando pós-graduação
 
 > [!TIP]
 >
-> 💼 [LinkedIn](https://www.linkedin.com/in/machadoah/)
->
-> 🐈‍⬛ [GitHub](https://github.com/machadoah/)
->
-> [🇧🇷 CV PDF](https://github.com/machadoah/cv/blob/main/cv_antonio_ptBR.pdf)
->
-> [🇺🇸 CV PDF](https://github.com/machadoah/cv/blob/main/cv_antonio_enUS.pdf)
+> 💼 [LinkedIn](https://www.linkedin.com/in/machadoah/) </br>
+> 🐈‍⬛ [GitHub](https://github.com/machadoah/) </br>
+> [🇧🇷 CV PDF](https://github.com/machadoah/cv/blob/main/cv_antonio_ptBR.pdf) </br>
+> [🇺🇸 CV PDF](https://github.com/machadoah/cv/blob/main/cv_antonio_enUS.pdf) </br>
