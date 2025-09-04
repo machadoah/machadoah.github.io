@@ -13,8 +13,7 @@ Sou um profissional dedicado à criação de soluções tecnológicas inovadoras
 
 Sou formado em Análise e Desenvolvimento de Sistemas, cursando pós-graduação em andamento em Inteligência Artificial e Aprendizado de Máquina. Tenho experiência prática em projetos de desenvolvimento de software e implementação de soluções baseadas em IA e ML.
 
-> [!TIP]
->
+> [!TIP] 💡
 > 💼 [LinkedIn](https://www.linkedin.com/in/machadoah/) </br>
 > 🐈‍⬛ [GitHub](https://github.com/machadoah/) </br>
 > [🇧🇷 CV PDF](https://github.com/machadoah/cv/blob/main/cv_antonio_ptBR.pdf) </br>
