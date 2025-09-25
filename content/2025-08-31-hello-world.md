@@ -6,7 +6,7 @@ series: agents-tutorial
 stream: draft
 title: Template
 description: Compreenda o que são agentes de IA!
-slug: agentes # nome do arquivo sem a data
+# slug: agentes # nome do arquivo sem a data
 banner_image: media/image.png
 extra:
   mermaid: true

@@ -56,13 +56,13 @@ series:
 
 # NAVIGATION
 menu:
-  - ["About", "about.html"]
-  - ["Pages", "pages.html"]
-  - ["Tags", "tags.html"]
+  - ["👷🏼‍♂️ Me", "me.html"]
+  - ["📑 Pages", "pages.html"]
+  - ["🏷️ Tags", "tags.html"]
   # - ["Streams", "streams.html"]
   # - ["Linkedin", "https://linkedin.com/in/machadoah"]
   # - ["Github", "https://github.com/machadoah"]
-  - ["Series", "series.html"]
+  - ["📚 Series", "series.html"]
 
 # FEATURES
 enable_search: true
