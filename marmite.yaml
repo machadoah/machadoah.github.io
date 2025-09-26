@@ -13,6 +13,8 @@ language: "pt"
 footer: |
   <div>
     Powered by <a href="https://github.com/machadoah">@machadoah</a>
+    <br/>
+    <small>🤗 Feito por humano <b>não por IA</b></small>
   </div>
 
 # PAGINATION
