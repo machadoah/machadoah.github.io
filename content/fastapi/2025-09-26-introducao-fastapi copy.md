@@ -4,7 +4,7 @@ tags: fastapi
 author: antonio
 series: FastAPI
 # stream: draft
-title: 01 - Introdução ao FastAPI e API
+title: Introdução ao FastAPI e API
 description: Compreenda o que é o FastAPI!
 # slug: parametros # nome do arquivo sem a data
 banner_image: media/fastapi-blog.png
