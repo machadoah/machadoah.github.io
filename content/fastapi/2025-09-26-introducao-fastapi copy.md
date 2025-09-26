@@ -3,7 +3,7 @@ date: 2025-08-31
 tags: fastapi
 author: antonio
 series: FastAPI
-# stream: draft
+stream: draft
 title: Introdução ao FastAPI e API
 description: Compreenda o que é o FastAPI!
 # slug: parametros # nome do arquivo sem a data

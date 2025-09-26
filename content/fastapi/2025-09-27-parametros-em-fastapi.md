@@ -3,7 +3,7 @@ date: 2025-08-31
 tags: fastapi
 author: antonio
 series: FastAPI
-# stream: draft
+stream: draft
 title: Parametros em FastAPI
 description: Compreenda o que são parâmetros em FastAPI!
 # slug: parametros # nome do arquivo sem a data
