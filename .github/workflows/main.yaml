@@ -34,7 +34,7 @@ jobs:
           uv sync --no-dev
 
       - name: Build site 🏗️
-        run: uv run marmite content site --debug
+        run: uv run marmite . site --debug
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
