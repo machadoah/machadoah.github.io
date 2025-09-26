@@ -11,7 +11,7 @@ Tenho interesse em desenvolvimento de aplicações, startups, comunicação, IA,
 
 Sou um profissional dedicado à criação de soluções tecnológicas inovadoras. Com experiência em desenvolvimento de software e sistemas com Agentes de Inteligência Artificial, busco constantemente aprender e aplicar novas tecnologias para resolver desafios complexos.
 
-Sou formado em Análise e Desenvolvimento de Sistemas, cursando pós-graduação em andamento em Inteligência Artificial e Aprendizado de Máquina. Tenho experiência prática em projetos de desenvolvimento de software e implementação de soluções baseadas em IA e ML.
+Sou formado em Análise e Desenvolvimento de Sistemas e atualmente curso pós-graduação em andamento em Inteligência Artificial e Aprendizado de Máquina. Tenho experiência prática em projetos de desenvolvimento de software e implementação de soluções baseadas em IA e ML.
 
 > [!TIP] 💡
 > 💼 [LinkedIn](https://www.linkedin.com/in/machadoah/) </br>
