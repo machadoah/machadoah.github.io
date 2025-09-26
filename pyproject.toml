@@ -17,4 +17,4 @@ dev = [
 [tool.taskipy.tasks]
 generate = "uv run marmite . -v" # Generate ./site static files
 serve = "uv run marmite . --serve --watch" # Serve ./site static files with live reload
-build = "uv run marmite . site --debug" # Deploy ./site static files to GitHub Pages
+build = "uv run marmite . .site --debug" # Deploy ./site static files to GitHub Pages
