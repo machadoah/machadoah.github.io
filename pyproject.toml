@@ -1,9 +1,20 @@
 [project]
 name = "machadoah-github-io"
 version = "0.1.0"
-description = "Add your description here"
+description = "My personal website and blog"
 readme = "README.md"
 requires-python = ">=3.13"
+
 dependencies = [
     "marmite>=0.2.6",
 ]
+
+[dependency-groups]
+dev = [
+    "taskipy>=1.14.1",
+]
+
+[tool.taskipy.tasks]
+generate = "uv run marmite content -v" # Generate ./site static files
+serve = "uv run marmite content --serve --watch" # Serve ./site static files with live reload
+build = "uv run marmite content site --debug" # Deploy ./site static files to GitHub Pages

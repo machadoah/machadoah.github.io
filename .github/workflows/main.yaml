@@ -31,10 +31,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv sync --no-dev
+          uv sync
 
       - name: Build site 🏗️
-        run: uv run marmite . site --debug
+        run: uv run task build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
