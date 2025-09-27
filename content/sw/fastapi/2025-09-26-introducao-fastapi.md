@@ -98,7 +98,7 @@ Em respostas, o body contém os dados retornados pelo servidor, como informaçõ
   <img src="../../media/fastapi-1.drawio.png" alt="APIss" />
 </div>
 
-#### Response Status Codes
+##### Response Status Codes
 
 Os códigos de status HTTP são números que indicam o resultado de uma requisição HTTP. Eles são divididos em cinco categorias principais:
 
@@ -124,7 +124,7 @@ Provavelmente, você verá uma página com o erro 404.
   <img src="../../media/fastapi-2.png" alt="APIss" />
 </div>
 
-#### Response
+##### Response
 
 A resposta (response) é o que o servidor envia de volta para o cliente após processar uma requisição. Ela geralmente inclui um código de status HTTP, headers e um body com os dados solicitados ou uma mensagem de erro.
 
