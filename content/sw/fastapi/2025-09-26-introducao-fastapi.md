@@ -3,10 +3,8 @@ date: 2025-09-26
 tags: fastapi
 author: antonio
 series: FastAPI
-# stream: draft
 title: Introdução ao FastAPI e API
 description: Compreenda o que é APIs REST e FastAPI! ⚡️ 
-# slug: parametros # nome do arquivo sem a data
 banner_image: media/fastapi-blog.png
 extra:
   mermaid: true
@@ -52,6 +50,7 @@ O principal objetivo é termos conhecimento prático para desenvolver APIs RESTf
 
 APIs (Application Programming Interfaces) permitem a comunicação entre diferentes sistemas. Elas definem como os dados devem ser solicitados, enviados e formatados.
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-o-que-sao-apis.drawio.png" alt="APIs" />
 </div>
@@ -64,12 +63,12 @@ REST (**RE**epresentational **S**tate **T**ransfer) é um estilo arquitetural pa
 
 Os principais métodos HTTP utilizados em APIs REST são:
 
-| Método | Descrição |
-|--------|-----------|
-| GET    | Recupera dados de um recurso. |
-| POST   | Cria um novo recurso. |
-| PUT    | Atualiza um recurso existente. |
-| DELETE | Remove um recurso. |
+| Método | Descrição                         |
+| ------ | --------------------------------- |
+| GET    | Recupera dados de um recurso.     |
+| POST   | Cria um novo recurso.             |
+| PUT    | Atualiza um recurso existente.    |
+| DELETE | Remove um recurso.                |
 | PATCH  | Atualiza parcialmente um recurso. |
 
 Nesse contexto, um recurso pode ser qualquer entidade que a API manipula, como usuários, produtos, pedidos, etc.
@@ -78,6 +77,7 @@ Imagine que você está acessando um app de uma livraria. Cada livro, autor, cat
 
 Agora, imagine que você precise saber quais livros você já comprou. Provavelmente, o sistema vai fazer uma requisição do tipo `GET` para a API, que vai retornar os dados dos livros que você comprou.
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-0.drawio.png" alt="APIss" />
 </div>
@@ -94,6 +94,7 @@ O body (corpo) é a parte da requisição ou resposta HTTP que contém os dados 
 
 Em respostas, o body contém os dados retornados pelo servidor, como informações de um recurso solicitado.
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-1.drawio.png" alt="APIss" />
 </div>
@@ -102,16 +103,16 @@ Em respostas, o body contém os dados retornados pelo servidor, como informaçõ
 
 Os códigos de status HTTP são números que indicam o resultado de uma requisição HTTP. Eles são divididos em cinco categorias principais:
 
-| Código | Categoria               | Descrição                                      |
-|--------|-------------------------|------------------------------------------------|
-| 1xx    | Informativo             | Indica que a requisição foi recebida e está sendo processada. |
-| 2xx    | Sucesso                 | Indica que a requisição foi bem-sucedida. Exemplo: 200 OK, 201 Created. |
-| 3xx    | Redirecionamento        | Indica que o cliente deve tomar ações adicionais para completar a requisição. Exemplo: 301 Moved Permanently, 302 Found. |
-| 4xx    | Erro do Cliente         | Indica que houve um erro na requisição do cliente. Exemplo: 400 Bad Request, 401 Unauthorized, 404 Not Found. |
-| 5xx    | Erro do Servidor        | Indica que houve um erro no servidor ao processar a requisição. Exemplo: 500 Internal Server Error, 503 Service Unavailable. |
+| Código | Categoria        | Descrição                                                                                                                    |
+| ------ | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 1xx    | Informativo      | Indica que a requisição foi recebida e está sendo processada.                                                                |
+| 2xx    | Sucesso          | Indica que a requisição foi bem-sucedida. Exemplo: 200 OK, 201 Created.                                                      |
+| 3xx    | Redirecionamento | Indica que o cliente deve tomar ações adicionais para completar a requisição. Exemplo: 301 Moved Permanently, 302 Found.     |
+| 4xx    | Erro do Cliente  | Indica que houve um erro na requisição do cliente. Exemplo: 400 Bad Request, 401 Unauthorized, 404 Not Found.                |
+| 5xx    | Erro do Servidor | Indica que houve um erro no servidor ao processar a requisição. Exemplo: 500 Internal Server Error, 503 Service Unavailable. |
 
 > [!NOTE] ℹ️
-> Sendo sincera com você, eu raramente vejo códigos 1xx e 3xx sendo utilizados em APIs REST. Os mais comuns são os 2xx, 4xx e 5xx. <br/><br/>
+> Sendo sincera com você, eu raramente vejo códigos 1xx e 3xx sendo utilizados em APIs REST. Os mais comuns são os 2xx, 4xx e 5xx. </br></br>
 > Uma curiosidade é que o código 418 **(I'm a teapot)** 🫖 é um código de status HTTP definido como uma piada no [RFC 2324](https://datatracker.ietf.org/doc/html/rfc2324), que especifica o protocolo Hyper Text Coffee Pot Control Protocol (HTCPCP). Ele indica que o servidor é um bule de chá e não pode preparar café.
 
 Você mesmo que talvez não esteja costumado com esses códigos, mas com certeza já os viu em algum momento. Por exemplo, quando você tenta acessar uma página que não existe, você provavelmente já viu o erro 404.
@@ -120,6 +121,7 @@ Que ver na prática? Tente acessar esse link: [https://github.com/machadoah/rota
 
 Provavelmente, você verá uma página com o erro 404.
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-2.png" alt="APIss" />
 </div>
@@ -128,6 +130,7 @@ Provavelmente, você verá uma página com o erro 404.
 
 A resposta (response) é o que o servidor envia de volta para o cliente após processar uma requisição. Ela geralmente inclui um código de status HTTP, headers e um body com os dados solicitados ou uma mensagem de erro.
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-3.drawio.png" alt="APIss" />
 </div>
@@ -136,6 +139,7 @@ Podemos ver ai que o servidor retornou um código de status 200, indicando que a
 
 ### O que é o FastAPI?
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-blog.png" alt="APIss" />
 </div>
@@ -157,7 +161,7 @@ Para isso vamos seguir pequenos passos, que são desde como uma função simples
 1. **Função simples em Python**
 
 > [!NOTE] ℹ️
-> Normalmente gosto de colocar bastantes comentários para ajudar ao máximo sua compreensão, sei que as vezes pode ser cansativo, mas é para o seu bem! 😅 <br/><br/>
+> Normalmente gosto de colocar bastantes comentários para ajudar ao máximo sua compreensão, sei que as vezes pode ser cansativo, mas é para o seu bem! 😅 </br></br>
 > Acredito que às vezes menos é mais, mas nesse caso, mais é mais! 😂
 
 Aqui temos uma função simples em Python que recebe um nome como parâmetro e retorna uma mensagem de saudação.
@@ -167,13 +171,14 @@ def read_message(my_name: str):
     return {"message": f"Hello {my_name}"}
 ```
 
+<!-- markdownlint-disable MD029 -->
 2. **Transformando a função em um endpoint de API com FastAPI**
 
 Agora, vamos transformar essa função em um endpoint de uma API usando o FastAPI. Para isso, precisamos instalar o FastAPI!
 
 > [!NOTE] ℹ️
-> **CALMA!** <br/>
-> Não precisa sair instalando tudo agora, só quero que você entenda o conceito. Depois a gente vê como instalar e configurar tudo direitinho. 😅 <br/>
+> **CALMA!** </br>
+> Não precisa sair instalando tudo agora, só quero que você entenda o conceito. Depois a gente vê como instalar e configurar tudo direitinho. 😅 </br>
 > Vamos ter um passo a passo bem detalhado em posts futuros. 😉
 
 Agora aqui está o código para transformar a função em um endpoint de API com FastAPI:
@@ -208,6 +213,7 @@ O Django, por outro lado, é um framework web completo que inclui um ORM (Object
 
 O Flask é um microframework que oferece mais flexibilidade e controle sobre a estrutura da aplicação. Ele é leve e fácil de aprender, mas pode exigir mais trabalho para configurar e adicionar funcionalidades adicionais, como autenticação, validação de dados, etc, coisas que o FastAPI já oferece nativamente.
 
+<!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
   <img src="../../media/fastapi-star-history.png" alt="APIss" />
 </div>

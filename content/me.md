@@ -1,6 +1,7 @@
 # Quem sou eu?
 
-> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> </br>
+<!-- markdownlint-disable MD033 -->
+> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" alt="gato programando"> </br>
 > Olá! Me chamo Antonio!  </br>
 > Sou Analista de Sistemas e Software Engineer.
 
