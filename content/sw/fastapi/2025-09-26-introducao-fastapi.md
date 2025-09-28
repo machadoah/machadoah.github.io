@@ -3,7 +3,7 @@ date: 2025-09-26
 tags: fastapi
 author: antonio
 series: FastAPI
-title: Introdução ao FastAPI e API
+title: FastAPI - Introdução ao FastAPI e API
 description: Compreenda o que é APIs REST e FastAPI! ⚡️ 
 banner_image: media/fastapi-blog.png
 extra:
