@@ -5,7 +5,7 @@ author: antonio
 series: FastAPI
 title: FastAPI - Introdução ao FastAPI e API
 description: Compreenda o que é APIs REST e FastAPI! ⚡️ 
-banner_image: media/fastapi-blog.png
+banner_image: media/fastapi/fastapi-blog.png
 extra:
   mermaid: true
   math: true
@@ -52,7 +52,7 @@ APIs (Application Programming Interfaces) permitem a comunicação entre diferen
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-o-que-sao-apis.drawio.png" alt="APIs" />
+  <img src="../../media/fastapi/fastapi-o-que-sao-apis.drawio.png" alt="APIs" />
 </div>
 
 #### REST
@@ -79,7 +79,7 @@ Agora, imagine que você precise saber quais livros você já comprou. Provavelm
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-0.drawio.png" alt="APIss" />
+  <img src="../../media/fastapi/fastapi-0.drawio.png" alt="APIss" />
 </div>
 
 ##### Headers
@@ -96,7 +96,7 @@ Em respostas, o body contém os dados retornados pelo servidor, como informaçõ
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-1.drawio.png" alt="APIss" />
+  <img src="../../media/fastapi/fastapi-1.drawio.png" alt="APIss" />
 </div>
 
 ##### Response Status Codes
@@ -123,7 +123,7 @@ Provavelmente, você verá uma página com o erro 404.
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-2.png" alt="APIss" />
+  <img src="../../media/fastapi/fastapi-2.png" alt="APIss" />
 </div>
 
 ##### Response
@@ -132,7 +132,7 @@ A resposta (response) é o que o servidor envia de volta para o cliente após pr
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-3.drawio.png" alt="APIss" />
+  <img src="../../media/fastapi/fastapi-3.drawio.png" alt="APIss" />
 </div>
 
 Podemos ver ai que o servidor retornou um código de status 200, indicando que a requisição foi bem-sucedida. O body contém os dados solicitados, que nesse caso é um JSON com o nome e autor do livro [Esaú e Jacó](https://pt.wikipedia.org/wiki/Esa%C3%BA_e_Jac%C3%B3_(romance)).
@@ -141,7 +141,7 @@ Podemos ver ai que o servidor retornou um código de status 200, indicando que a
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-blog.png" alt="APIss" />
+  <img src="../../media/fastapi/fastapi-blog.png" alt="APIss" />
 </div>
 
 O FastAPI é um framework web moderno e de alto desempenho para construir APIs com Python. Ele é rápido, fácil de usar e oferece uma série de recursos que facilitam o desenvolvimento de APIs robustas e escaláveis.
@@ -215,7 +215,7 @@ O Flask é um microframework que oferece mais flexibilidade e controle sobre a e
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align:center;">
-  <img src="../../media/fastapi-star-history.png" alt="APIss" />
+  <img src="../../media/fastapi/fastapi-star-history.png" alt="APIss" />
 </div>
 
 Na imagem acima, podemos ver a evolução do número de estrelas no GitHub dos três frameworks ao longo do tempo. O FastAPI tem mostrado um crescimento impressionante, refletindo sua popularidade crescente na comunidade de desenvolvedores. Chegando até a ultrapassar o Flask e o Django em número de estrelas.
