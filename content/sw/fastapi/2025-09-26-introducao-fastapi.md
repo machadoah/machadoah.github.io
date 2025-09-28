@@ -20,6 +20,11 @@ O FastAPI é um framework web moderno e de alto desempenho para construir APIs c
 
 Meu objetivo com esta série de posts é compartilhar conhecimentos e experiências sobre o desenvolvimento de APIs utilizando o FastAPI, abordando desde conceitos básicos até tópicos mais avançados. Espero que você aproveite e aprenda bastante com o conteúdo!
 
+> [!IMPORTANT] 🚨
+> Para acompanhar essa série, é importante que você tenha conhecimentos básicos de Python e programação web. Se você ainda não está familiarizado com esses tópicos, recomendo que você estude um pouco antes de continuar com esta série.</br>
+> Tópicos essenciais de Python, como funções, classes, listas, dicionários, etc., são importantes para entender o conteúdo que será abordado.</br>
+> Além, de conhecimentos sobre ambientes virtuais, pip e instalação de pacotes.
+
 <!--
 Fique à vontade para sugerir temas ou fazer perguntas nos comentários. Vamos juntos explorar o mundo do FastAPI e construir APIs incríveis!
 -->
