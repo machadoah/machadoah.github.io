@@ -4,7 +4,7 @@ tags: fastapi
 author: antonio
 series: FastAPI
 title: FastAPI - Setup Inicial
-description: Setup inicial de um projeto com FastAPI!
+description: Setup inicial de um projeto com FastAPI! ⚡️
 banner_image: media/fastapi/fastapi-blog.png
 extra:
   mermaid: true

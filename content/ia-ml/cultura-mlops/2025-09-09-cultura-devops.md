@@ -4,7 +4,7 @@ tags: inteligencia-artificial, mlops, dataops, cultura
 author: antonio
 series: cultura-e-praticas-em-dataops-e-mlops
 title: DataOps e MLOps - Fundamentos da Cultura DevOps
-description: Introdução aos Fundamentos da Cultura DevOps
+description: Introdução aos Fundamentos da Cultura DevOps! ⚙️
 banner_image: media/mlops-blog.png
 extra:
   mermaid: true
